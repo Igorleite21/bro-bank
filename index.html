@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BroBank</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BroBank</h1>
+        <p>Saldo Atual: <span id="saldo">R$ 0,00</span></p>
+        <div class="operacao">
+            <h2>Depósito</h2>
+            <input type="number" id="valor-deposito" placeholder="Valor do Depósito">
+            <button onclick="depositar()">Depositar</button>
+        </div>
+        <div class="operacao">
+            <h2>Saque</h2>
+            <input type="number" id="valor-saque" placeholder="Valor do Saque">
+            <button onclick="sacar()">Sacar</button>
+        </div>
+        <div class="operacao">
+            <h2>Transferência</h2>
+            <input type="number" id="valor-transferencia" placeholder="Valor da Transferência">
+            <button onclick="transferir()">Transferir</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

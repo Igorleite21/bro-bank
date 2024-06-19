@@ -1,0 +1,50 @@
+
+body 
+{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url(images/fundo-tela.jpg);
+    background-color: #f0f0f0;
+    background-size: cover;
+    background-position: center
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    border-radius: 14px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* .operacao {
+    margin: 2px 5;
+} */
+
+.operacao input {
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.operacao button {
+    margin-bottom: 10px;
+    
+    padding: 10px;
+    width: 100%;
+    background-color: #5ea255;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.operacao button:hover {
+    background-color: #255939;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
